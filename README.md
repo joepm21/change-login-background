@@ -6,7 +6,7 @@ Inicio de login - background por default de kali linux - Antes de ejecutar el sc
 
 Instalación
 
-    git clone https://github.com/0xGh0s7m4n/change-login-background.git
+    git clone https://github.com/joepm21/change-login-background.git
     cd change-login-background
     chmod +x change_login_background
     
