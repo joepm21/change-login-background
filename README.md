@@ -1,30 +1,99 @@
-Script escrito en python para cambiar de manera automática el fondo de inicio de sesión de kali linux todas las versiones
+# PVGUARD - Change Login Background
 
-Inicio de login - background por default de kali linux - Antes de ejecutar el script
+![Version](https://img.shields.io/badge/version-1.0%20%7C%202.0-brightgreen)
+![Python](https://img.shields.io/badge/python-3.x-blue)
+![Platform](https://img.shields.io/badge/platform-Kali%20Linux-black)
+![GUI](https://img.shields.io/badge/v2.0-GUI%20Tkinter-green)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-![kali](https://github.com/user-attachments/assets/3374b203-21d0-43d1-8301-1ac73a2746fd)
+## Description
 
-Instalación
+**PVGUARD - Change Login Background** is a Python tool designed to change the Kali Linux login background.
 
-    git clone https://github.com/joepm21/change-login-background.git
-    cd change-login-background
-    chmod +x change_login_background
-    
-![test](https://github.com/user-attachments/assets/e4011da7-a7d4-47cc-a85b-f4756788d13b)
+The project includes two versions:
 
-Modo de uso 
+- **v1.0**: initial command-line version.
+- **v2.0**: improved GUI version with backup, restore, privilege elevation, image preview, and Dark Hacker Edition interface.
 
-    sudo ./change_login_background {Path_Image} 
-Ejm:
-    
-    sudo ./change_login_background /home/kali/main.jpeg
+---
 
-![kali2](https://github.com/user-attachments/assets/da7782aa-6ed3-4e37-9c99-d77d7a37c9a4)
+## Versions
 
-Ejecución del script adjuntando la ruta de la imagen a cambiar
+### PVGUARD v1.0
 
-![kali3](https://github.com/user-attachments/assets/8c1872e0-f0fe-43a2-abb0-69c56fa8e80c)
+The first version works from the terminal and changes the Kali Linux login background by passing the image path as an argument.
 
-Inicio de login - background personalizado - Despues de ejecutar el script
+Main features:
 
-![kali4](https://github.com/user-attachments/assets/eff9d248-de28-43f6-b26b-725d2eba68dc)
+- CLI-based execution.
+- Simple image replacement.
+- Requires privileged execution.
+- Lightweight and direct.
+
+Example:
+
+<img width="630" height="177" alt="image" src="https://github.com/user-attachments/assets/507bc590-d019-4e9b-94f8-114ccf4f2496" />
+
+---
+
+### PVGUARD v2.0
+
+The second version includes a graphical interface and several improvements.
+
+Main features:
+
+-Python GUI built with Tkinter.
+-Image picker from the file explorer.
+-thumbnail preview.
+-Automatic backup of the current login background.
+-Restore option for the previous background.
+-Automatic privilege elevation using pkexec.
+-No need to manually run the tool with sudo.
+-GUI and CLI support.
+-Responsive layout with vertical and horizontal scrollbars.
+-Visual fixes and stability improvements.
+-Spanish and English version.
+
+Example:
+
+Version Spanish
+
+<img width="1034" height="751" alt="image" src="https://github.com/user-attachments/assets/bdca8af6-5ea9-4a1e-9875-cdcc760bf8c4" />
+
+Version English
+
+<img width="1028" height="757" alt="image" src="https://github.com/user-attachments/assets/0770fb40-142f-4e5c-bd9f-6c78dc86a8ac" />
+
+---
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/joepm21/change-login-background.git
+cd change-login-background
+```
+
+Install requirements:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Author
+
+Gh0s7m4n 
+
+---
+
+## Disclaimer
+
+This tool modifies system theme files related to the Kali Linux login screen. Use it responsibly and keep backups before applying changes.
+
+---
+
+## License
+
+This project can be distributed under the MIT License.
