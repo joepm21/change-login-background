@@ -4,7 +4,7 @@
 ![Python](https://img.shields.io/badge/python-3.x-blue)
 ![Platform](https://img.shields.io/badge/platform-Kali%20Linux-black)
 ![GUI](https://img.shields.io/badge/v2.0-GUI%20Tkinter-green)
-![License](https://img.shields.io/badge/license-MIT-green)
+
 
 ## Description
 
