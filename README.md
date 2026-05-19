@@ -42,17 +42,17 @@ The second version includes a graphical interface and several improvements.
 
 Main features:
 
--Python GUI built with Tkinter.
--Image picker from the file explorer.
--thumbnail preview.
--Automatic backup of the current login background.
--Restore option for the previous background.
--Automatic privilege elevation using pkexec.
--No need to manually run the tool with sudo.
--GUI and CLI support.
--Responsive layout with vertical and horizontal scrollbars.
--Visual fixes and stability improvements.
--Spanish and English version.
+- Python GUI built with Tkinter.
+- Image picker from the file explorer.
+- thumbnail preview.
+- Automatic backup of the current login background.
+- Restore option for the previous background.
+- Automatic privilege elevation using pkexec.
+- No need to manually run the tool with sudo.
+- GUI and CLI support.
+- Responsive layout with vertical and horizontal scrollbars.
+- Visual fixes and stability improvements.
+- Spanish and English version.
 
 Example:
 
