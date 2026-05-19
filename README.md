@@ -32,7 +32,7 @@ Main features:
 
 Example:
 
-<img width="630" height="177" alt="image" src="https://github.com/user-attachments/assets/507bc590-d019-4e9b-94f8-114ccf4f2496" />
+<img width="529" height="405" alt="image" src="https://github.com/user-attachments/assets/9aa4a40e-d987-4d45-b706-8f306858a3ae" />
 
 ---
 
