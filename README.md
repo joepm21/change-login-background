@@ -86,10 +86,7 @@ pip install -r requirements.txt
 
 Gh0s7m4n 
 
----
-
 ## Disclaimer
 
 This tool modifies system theme files related to the Kali Linux login screen. Use it responsibly and keep backups before applying changes.
 
----
