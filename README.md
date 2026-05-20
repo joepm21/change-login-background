@@ -93,7 +93,3 @@ Gh0s7m4n
 This tool modifies system theme files related to the Kali Linux login screen. Use it responsibly and keep backups before applying changes.
 
 ---
-
-## License
-
-This project can be distributed under the MIT License.
